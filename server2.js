@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 9800;
+var port = process.env.PORT||9800;
 const path = require('path');
 
 var city = [
